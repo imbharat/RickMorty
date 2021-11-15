@@ -1,0 +1,30 @@
+{
+  "name": "RickMorty",
+  "version": "1.0.0",
+  "main": "lib/server/server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node lib/server/server.js ",
+    "start-dev": "nodemon --inspect-brk --exec babel-node lib/server/server.js ",
+    "webpack": "webpack -w --mode=development"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-css-modules-transform": "^1.6.2",
+    "nodemon": "^2.0.13",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0"
+  }
+}
